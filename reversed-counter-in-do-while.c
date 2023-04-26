@@ -4,7 +4,7 @@
 int main()
 {
     // Variable declaration
-    int contador = 0;
+    int contador;
     int num;
     
     // Data input
@@ -14,6 +14,7 @@ int main()
     // Processing & Data output
     do {
         // sequencia de comandos;
+        contador = 0;
         printf("%d\n", num);
         num--;
     } while (contador <= num);
